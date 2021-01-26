@@ -1,0 +1,64 @@
+RPG Plan
+
+cool ideas
+  - When a new player creates an account, map increases by 1x1
+  - player pay to own areas of the map, except AOI and towns
+    - safer near towns, more dangerous near AOI
+    - players can own an area near AOI, but risk their stuff being stolen/destroyed
+    - if your place is attacked or ransacked, it becomes deserted and becomes a normal area, but still owned by player
+    - if player is inactive for 7 days, their areas go up for auction and the proceeds go to the player
+
+Bugs
+  - Game over bug: ? appears where player quit early
+  - Random nodes needs to be different
+
+needed
+  - Area class
+  - Town class
+  - AOI class
+  - Inventory class
+  - Character class
+  - Combat class
+
+classes
+  - character info: skills, health, energy,
+  - inventory
+  - map
+  - area
+  - town area
+  - area of interest
+  - normal area
+  - settings
+
+Map
+  - Lets start with the map at 16x16
+  - Towns and areas of interest are fixed locations
+  - normal areas contain random stuff
+
+Moving
+  - out of bounds
+  - change symbol to you
+  - change previous symbol to ' ' unless a town or AOI
+  If w, currLocation = prevLocation, y++(only change), yourLocation = you
+
+Key Mappings (Map)
+  w - up
+  s - down
+  a - left
+  d - right
+  e - use
+  space - jump
+  i - inventory
+
+Key Mappings (Combat)
+  1 - ability 1
+  2 - ability 2
+  3 - ability 3
+  ` - slap
+  j - attack
+  k - block
+  space - dodge
+  l - potion
+  ; - poison
+
+Key Mappings (Inventory)
