@@ -1,0 +1,11 @@
+addimmediate r1 52
+
+addimmediate r2 10
+
+store r2 r1 0
+
+load r3 r1 0
+
+interrupt 0
+
+interrupt 1

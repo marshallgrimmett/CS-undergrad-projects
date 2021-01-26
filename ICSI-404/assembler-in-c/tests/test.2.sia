@@ -1,0 +1,12 @@
+add r1 r2 r3
+addimmediate r1 10
+and r1 r2 r3
+leftshift r1 2
+load r3 r1 0
+multiply r1 r2 r3
+or r1 r2 r3
+rightshift r1 2
+store r2 r1 0
+subtract r1 r2 r3
+interrupt 0
+halt

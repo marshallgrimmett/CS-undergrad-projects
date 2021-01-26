@@ -1,0 +1,68 @@
+All tests
+  - use empty registers (both, neither, first, second)
+  - use incorrect syntax
+  - use positive and negative values (++, +-, --, -+)
+  - use values out of range (both, first, second, result)
+
+add
+  - default
+
+addimmediate
+  - default
+  - out of range (-127 to 127)
+
+and
+  - default
+
+branchifequal
+  - default
+  - out of range (-524,286 to 524,286)
+
+branchifless
+  - default
+  - out of range (-524,286 to 524,286)
+
+divide
+  - default
+  - divide by 0
+
+halt
+  - default
+
+interrupt
+  - default
+  - interrupt 0
+  - interrupt 1
+
+iterateover
+  - default
+  - out of range (jumps back in bytes, 2 bytes per instruction)
+
+jump
+  - default
+  - out of range (0 to 536,870,911)
+
+leftshift
+  - default
+  - out of range (0 to 31)
+
+load
+  - default
+  - offset (-15 to 15)
+
+multiply
+  - default
+
+or
+  - default
+
+rightshift
+  - default
+  - out of range (0 to 31)
+
+store
+  - default
+  - offset (-15 to 15)
+
+subtract
+  - default

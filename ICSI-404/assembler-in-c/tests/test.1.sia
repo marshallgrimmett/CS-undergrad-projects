@@ -1,0 +1,55 @@
+add r1 r2 r3
+addimmediate r1 10
+and r1 r2 r3
+branchifequal r1 r2 4
+branchifless r1 r2 4
+divide r1 r2 r3
+halt
+interrupt 0
+iterateover r1 4 4
+jump 3
+leftshift r1 2
+load r3 r1 0
+multiply r1 r2 r3
+or r1 r2 r3
+rightshift r1 2
+store r2 r1 0
+subtract r1 r2 r3
+
+
+addimmediate r1 52
+addimmediate r2 1
+store r2 r1 0
+addimmediate r2 1
+store r2 r1 0
+addimmediate r2 1
+store r2 r1 2
+load r2 r1 0
+interrupt 0
+iterateover r1 4 8
+interrupt 1
+halt
+
+addimmediate r1 1
+addimmediate r2 52
+store r1 r2 0
+addimmediate r1 1
+store r1 r2 1
+addimmediate r1 1
+store r1 r2 2
+load r1 r2 0
+interrupt 0
+iterateover r2 1 4
+halt
+
+addimmediate r1 52
+addimmediate r2 1
+store r2 r1 0
+addimmediate r2 2
+store r2 r1 4
+addimmediate r2 3
+store r2 r1 8
+load r2 r1 0
+interrupt 0
+iterateover r1 4 20
+halt
